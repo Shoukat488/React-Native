@@ -3,7 +3,6 @@ import { StyleSheet , SafeAreaView  } from 'react-native';
 import Login from './components/login';
 import store from './store/store';
 import {Provider} from 'react-redux';
-import firebase from 'firebase';
 export default function App() {
   
   return (

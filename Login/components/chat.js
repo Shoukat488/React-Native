@@ -6,8 +6,7 @@ import List from './list';
 const Chat=()=>{
     return(
         <View style = {styles.container}>
-            <List/>
-            <Input/>
+
         </View>
 
     )
@@ -18,5 +17,3 @@ const styles = StyleSheet.create({
         flex : 1
     }
 })
-
-export default Chat;
